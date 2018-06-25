@@ -1,10 +1,10 @@
 package main
 
 import (
+	"ch2/tempconv"
+	"fmt"
 	"os"
 	"strconv"
-	"fmt"
-	"ch2/tempconv"
 )
 
 func main() {

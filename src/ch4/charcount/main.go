@@ -1,12 +1,12 @@
 package main
 
 import (
-	"unicode/utf8"
 	"bufio"
-	"os"
-	"io"
 	"fmt"
+	"io"
+	"os"
 	"unicode"
+	"unicode/utf8"
 )
 
 func main() {

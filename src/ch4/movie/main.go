@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"log"
 	"fmt"
+	"log"
 )
 
 type Movie struct {
@@ -38,8 +38,8 @@ func main() {
 		}
 		fmt.Printf("%s\n", data)
 
-		var titles []struct{
-			Title string
+		var titles []struct {
+			Title  string
 			Actors []string
 		}
 		if err := json.Unmarshal(data, &titles); err != nil {

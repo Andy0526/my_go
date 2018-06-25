@@ -1,10 +1,10 @@
 package main
 
 import (
-	"html/template"
 	"ch4/github"
-	"os"
+	"html/template"
 	"log"
+	"os"
 )
 
 var issueList = template.Must(template.New("issuelist").Parse(`

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"strings"
 	"bufio"
-	"os"
 	"fmt"
+	"os"
+	"strings"
 )
 
 func basename(s string) string {

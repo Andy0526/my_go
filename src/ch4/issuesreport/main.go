@@ -1,11 +1,11 @@
 package main
 
 import (
-	"time"
-	"log"
 	"ch4/github"
+	"log"
 	"os"
 	"text/template"
+	"time"
 )
 
 const templ = `{{.TotalCount}} issues:

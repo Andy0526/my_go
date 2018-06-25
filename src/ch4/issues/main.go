@@ -2,9 +2,9 @@ package main
 
 import (
 	"ch4/github"
-	"os"
-	"log"
 	"fmt"
+	"log"
+	"os"
 )
 
 func main() {

@@ -1,10 +1,10 @@
 package treesort_test
 
 import (
-	"testing"
-	"math/rand"
 	"ch4/treesort"
+	"math/rand"
 	"sort"
+	"testing"
 )
 
 func TestSort(t *testing.T) {

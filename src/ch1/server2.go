@@ -1,10 +1,10 @@
 package main
 
 import (
-	"sync"
-	"net/http"
 	"fmt"
 	"log"
+	"net/http"
+	"sync"
 )
 
 var mu sync.Mutex

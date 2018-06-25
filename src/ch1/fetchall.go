@@ -1,12 +1,12 @@
 package main
 
 import (
-	"time"
-	"os"
-	"net/http"
 	"fmt"
 	"io"
 	"io/ioutil"
+	"net/http"
+	"os"
+	"time"
 )
 
 func fetch(url string, ch chan<- string) {
